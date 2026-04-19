@@ -1,0 +1,5 @@
+D:\SimplyRugby_System\ucRegisterJunior\obj\Debug\ucRegisterJunior.csproj.AssemblyReference.cache
+D:\SimplyRugby_System\ucRegisterJunior\obj\Debug\ucRegisterJunior.PlayerLoginForm.resources
+D:\SimplyRugby_System\ucRegisterJunior\obj\Debug\ucRegisterJunior.Properties.Resources.resources
+D:\SimplyRugby_System\ucRegisterJunior\obj\Debug\ucRegisterJunior.csproj.GenerateResource.cache
+D:\SimplyRugby_System\ucRegisterJunior\obj\Debug\ucRegisterJunior.csproj.CoreCompileInputs.cache

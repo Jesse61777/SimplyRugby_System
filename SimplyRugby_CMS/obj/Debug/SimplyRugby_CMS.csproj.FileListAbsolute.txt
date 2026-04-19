@@ -1,0 +1,5 @@
+D:\SimplyRugby_System\SimplyRugby_CMS\obj\Debug\SimplyRugby_CMS.csproj.AssemblyReference.cache
+D:\SimplyRugby_System\SimplyRugby_CMS\obj\Debug\SimplyRugby_System.LoginForm.resources
+D:\SimplyRugby_System\SimplyRugby_CMS\obj\Debug\SimplyRugby_CMS.Properties.Resources.resources
+D:\SimplyRugby_System\SimplyRugby_CMS\obj\Debug\SimplyRugby_CMS.csproj.GenerateResource.cache
+D:\SimplyRugby_System\SimplyRugby_CMS\obj\Debug\SimplyRugby_CMS.csproj.CoreCompileInputs.cache

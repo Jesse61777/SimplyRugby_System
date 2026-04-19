@@ -1,0 +1,331 @@
+{
+  "source_base_path": "D:/SimplyRugby_System",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimplyRugby_System.AnalyticsDashboardForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SimplyRugby_System.AnalyticsDashboardForm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimplyRugby_System.AnalyticsDashboardForm",
+      "Summary": "<p sourcefile=\"api/SimplyRugby_System.AnalyticsDashboardForm.yml\" sourcestartlinenumber=\"1\">Provides advanced data visualization and statistical analysis for club performance.\nIntegrates Match results and Training session data to provide a comprehensive squad overview.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimplyRugby_System.CompetitionManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SimplyRugby_System.CompetitionManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimplyRugby_System.CompetitionManager",
+      "Summary": "<p sourcefile=\"api/SimplyRugby_System.CompetitionManager.yml\" sourcestartlinenumber=\"1\">Coordinates performance data for matches and skill assessments.\nActs as the business bridge for player development tracking.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimplyRugby_System.DashboardForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SimplyRugby_System.DashboardForm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimplyRugby_System.DashboardForm",
+      "Summary": "<p sourcefile=\"api/SimplyRugby_System.DashboardForm.yml\" sourcestartlinenumber=\"1\">Displays key performance indicators (KPIs) and recent activity summaries.\nProvides shortcuts to primary system modules and manages high-level statistical visualization.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimplyRugby_System.DbHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SimplyRugby_System.DbHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimplyRugby_System.DbHelper",
+      "Summary": "<p sourcefile=\"api/SimplyRugby_System.DbHelper.yml\" sourcestartlinenumber=\"1\">Serves as the Data Access Layer (DAL) helper class.\nCentralizes and manages all underlying connections to the MySQL database.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimplyRugby_System.EditMemberForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SimplyRugby_System.EditMemberForm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimplyRugby_System.EditMemberForm",
+      "Summary": "<p sourcefile=\"api/SimplyRugby_System.EditMemberForm.yml\" sourcestartlinenumber=\"1\">User interface form designed for modifying existing player profiles within the database.\nProvides validation feedback and contextual help for administrative and coaching staff.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimplyRugby_System.EditTrainingForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SimplyRugby_System.EditTrainingForm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimplyRugby_System.EditTrainingForm",
+      "Summary": "<p sourcefile=\"api/SimplyRugby_System.EditTrainingForm.yml\" sourcestartlinenumber=\"1\">A dynamic popup form for securely editing existing training logs.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimplyRugby_System.LoginForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SimplyRugby_System.LoginForm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimplyRugby_System.LoginForm",
+      "Summary": "<p sourcefile=\"api/SimplyRugby_System.LoginForm.yml\" sourcestartlinenumber=\"1\">Manages the secure authentication process for the application.\nValidates credentials using SHA-256 hashing and establishes the user's security context.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimplyRugby_System.MainForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SimplyRugby_System.MainForm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimplyRugby_System.MainForm",
+      "Summary": "<p sourcefile=\"api/SimplyRugby_System.MainForm.yml\" sourcestartlinenumber=\"1\">Acts as the main container and navigation controller for the application.\nManages the visibility, layering, and role-based access of child modules.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimplyRugby_System.MatchResultForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SimplyRugby_System.MatchResultForm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimplyRugby_System.MatchResultForm",
+      "Summary": "<p sourcefile=\"api/SimplyRugby_System.MatchResultForm.yml\" sourcestartlinenumber=\"1\">User interface form for recording and archiving the results of competitive matches.\nCaptures opposition details, half-time statistics, and full-time results with integrated user guidance.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimplyRugby_System.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SimplyRugby_System.Player.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimplyRugby_System.Player",
+      "Summary": "<p sourcefile=\"api/SimplyRugby_System.Player.yml\" sourcestartlinenumber=\"1\">Represents the core business entity for a Rugby Player.\nEncapsulates standard information required by the Scottish Rugby Union (SRU) alongside fundamental business rules.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimplyRugby_System.PlayerManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SimplyRugby_System.PlayerManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimplyRugby_System.PlayerManager",
+      "Summary": "<p sourcefile=\"api/SimplyRugby_System.PlayerManager.yml\" sourcestartlinenumber=\"1\">Centralized business logic layer for all player-related data operations.\nHandles registration, updates, deletions, and retrieval of performance assessments.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimplyRugby_System.RegisterJuniorForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SimplyRugby_System.RegisterJuniorForm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimplyRugby_System.RegisterJuniorForm",
+      "Summary": "<p sourcefile=\"api/SimplyRugby_System.RegisterJuniorForm.yml\" sourcestartlinenumber=\"1\">Manages the user interface for entering new junior player information.\nProvides input validation, placeholder logic, and contextual help for the registration process.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimplyRugby_System.SecurityUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SimplyRugby_System.SecurityUtil.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimplyRugby_System.SecurityUtil",
+      "Summary": "<p sourcefile=\"api/SimplyRugby_System.SecurityUtil.yml\" sourcestartlinenumber=\"1\">Provides system-level security utilities, specifically focusing on cryptographic functions.\nFulfills advanced security requirements by preventing plain-text password storage.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimplyRugby_System.SkillAssessmentForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SimplyRugby_System.SkillAssessmentForm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimplyRugby_System.SkillAssessmentForm",
+      "Summary": "<p sourcefile=\"api/SimplyRugby_System.SkillAssessmentForm.yml\" sourcestartlinenumber=\"1\">Facilitates technical player evaluations by recording skill ratings and coaching notes.\nProvides interactive feedback and contextual guidance for technical assessments.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimplyRugby_System.TrainingManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SimplyRugby_System.TrainingManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimplyRugby_System.TrainingManager",
+      "Summary": "<p sourcefile=\"api/SimplyRugby_System.TrainingManager.yml\" sourcestartlinenumber=\"1\">Handles database operations for training sessions and attendance.\nFully implements CRUD capabilities with relational mapping.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimplyRugby_System.TrainingSessionForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SimplyRugby_System.TrainingSessionForm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimplyRugby_System.TrainingSessionForm",
+      "Summary": "<p sourcefile=\"api/SimplyRugby_System.TrainingSessionForm.yml\" sourcestartlinenumber=\"1\">User interface form for documenting training sessions and tracking player attendance.\nProvides dynamic generation of attendance controls and contextual help for coaching staff.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimplyRugby_System.User.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SimplyRugby_System.User.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimplyRugby_System.User",
+      "Summary": "<p sourcefile=\"api/SimplyRugby_System.User.yml\" sourcestartlinenumber=\"1\">Represents an authenticated system user within the Simply Rugby application.\nServes as the primary entity for managing Role-Based Access Control (RBAC) and user identity.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimplyRugby_System.ucMemberDirectory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SimplyRugby_System.ucMemberDirectory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimplyRugby_System.ucMemberDirectory",
+      "Summary": "<p sourcefile=\"api/SimplyRugby_System.ucMemberDirectory.yml\" sourcestartlinenumber=\"1\">Directory interface for viewing member details and accessing player management tools.\nProvides administrative functions including viewing, editing, and deleting player profiles.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimplyRugby_System.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SimplyRugby_System.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimplyRugby_System",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
