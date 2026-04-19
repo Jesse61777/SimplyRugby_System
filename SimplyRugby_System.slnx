@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/BLL/" />
+  <Folder Name="/DAL/" />
+  <Folder Name="/Models/" />
+  <Folder Name="/UI/" />
+  <Project Path="SimplyRugby_System/SimplyRugby_System.csproj" Id="f43937d5-38c8-480e-aac0-66136f605502" />
+</Solution>

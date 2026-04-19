@@ -1,0 +1,61 @@
+### YamlMime:TableOfContent
+items:
+- uid: SimplyRugby_System
+  name: SimplyRugby_System
+  type: Namespace
+  items:
+  - uid: SimplyRugby_System.AnalyticsDashboardForm
+    name: AnalyticsDashboardForm
+    type: Class
+  - uid: SimplyRugby_System.CompetitionManager
+    name: CompetitionManager
+    type: Class
+  - uid: SimplyRugby_System.DashboardForm
+    name: DashboardForm
+    type: Class
+  - uid: SimplyRugby_System.DbHelper
+    name: DbHelper
+    type: Class
+  - uid: SimplyRugby_System.EditMemberForm
+    name: EditMemberForm
+    type: Class
+  - uid: SimplyRugby_System.EditTrainingForm
+    name: EditTrainingForm
+    type: Class
+  - uid: SimplyRugby_System.LoginForm
+    name: LoginForm
+    type: Class
+  - uid: SimplyRugby_System.MainForm
+    name: MainForm
+    type: Class
+  - uid: SimplyRugby_System.MatchResultForm
+    name: MatchResultForm
+    type: Class
+  - uid: SimplyRugby_System.Player
+    name: Player
+    type: Class
+  - uid: SimplyRugby_System.PlayerManager
+    name: PlayerManager
+    type: Class
+  - uid: SimplyRugby_System.RegisterJuniorForm
+    name: RegisterJuniorForm
+    type: Class
+  - uid: SimplyRugby_System.SecurityUtil
+    name: SecurityUtil
+    type: Class
+  - uid: SimplyRugby_System.SkillAssessmentForm
+    name: SkillAssessmentForm
+    type: Class
+  - uid: SimplyRugby_System.TrainingManager
+    name: TrainingManager
+    type: Class
+  - uid: SimplyRugby_System.TrainingSessionForm
+    name: TrainingSessionForm
+    type: Class
+  - uid: SimplyRugby_System.User
+    name: User
+    type: Class
+  - uid: SimplyRugby_System.ucMemberDirectory
+    name: ucMemberDirectory
+    type: Class
+memberLayout: SamePage

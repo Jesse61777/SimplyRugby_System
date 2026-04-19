@@ -1,0 +1,610 @@
+### YamlMime:ManagedReference
+items:
+- uid: SimplyRugby_System.Player
+  commentId: T:SimplyRugby_System.Player
+  id: Player
+  parent: SimplyRugby_System
+  children:
+  - SimplyRugby_System.Player.Address
+  - SimplyRugby_System.Player.CalculateAge
+  - SimplyRugby_System.Player.DateOfBirth
+  - SimplyRugby_System.Player.EmergencyContact
+  - SimplyRugby_System.Player.FullName
+  - SimplyRugby_System.Player.IsJunior
+  - SimplyRugby_System.Player.MedicalInfo
+  - SimplyRugby_System.Player.PlayerID
+  langs:
+  - csharp
+  - vb
+  name: Player
+  nameWithType: Player
+  fullName: SimplyRugby_System.Player
+  type: Class
+  source:
+    id: Player
+    path: D:\SimplyRugby_System\SimplyRugby_System\Player.cs
+    startLine: 8
+  assemblies:
+  - SimplyRugby_System
+  namespace: SimplyRugby_System
+  summary: >-
+    Represents the core business entity for a Rugby Player.
+
+    Encapsulates standard information required by the Scottish Rugby Union (SRU) alongside fundamental business rules.
+  example: []
+  syntax:
+    content: public class Player
+    content.vb: Public Class Player
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SimplyRugby_System.Player.PlayerID
+  commentId: P:SimplyRugby_System.Player.PlayerID
+  id: PlayerID
+  parent: SimplyRugby_System.Player
+  langs:
+  - csharp
+  - vb
+  name: PlayerID
+  nameWithType: Player.PlayerID
+  fullName: SimplyRugby_System.Player.PlayerID
+  type: Property
+  source:
+    id: PlayerID
+    path: D:\SimplyRugby_System\SimplyRugby_System\Player.cs
+    startLine: 13
+  assemblies:
+  - SimplyRugby_System
+  namespace: SimplyRugby_System
+  summary: Gets or sets the unique identifier for the player.
+  example: []
+  syntax:
+    content: public int PlayerID { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PlayerID As Integer
+  overload: SimplyRugby_System.Player.PlayerID*
+- uid: SimplyRugby_System.Player.FullName
+  commentId: P:SimplyRugby_System.Player.FullName
+  id: FullName
+  parent: SimplyRugby_System.Player
+  langs:
+  - csharp
+  - vb
+  name: FullName
+  nameWithType: Player.FullName
+  fullName: SimplyRugby_System.Player.FullName
+  type: Property
+  source:
+    id: FullName
+    path: D:\SimplyRugby_System\SimplyRugby_System\Player.cs
+    startLine: 18
+  assemblies:
+  - SimplyRugby_System
+  namespace: SimplyRugby_System
+  summary: Gets or sets the player's full name.
+  example: []
+  syntax:
+    content: public string FullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FullName As String
+  overload: SimplyRugby_System.Player.FullName*
+- uid: SimplyRugby_System.Player.DateOfBirth
+  commentId: P:SimplyRugby_System.Player.DateOfBirth
+  id: DateOfBirth
+  parent: SimplyRugby_System.Player
+  langs:
+  - csharp
+  - vb
+  name: DateOfBirth
+  nameWithType: Player.DateOfBirth
+  fullName: SimplyRugby_System.Player.DateOfBirth
+  type: Property
+  source:
+    id: DateOfBirth
+    path: D:\SimplyRugby_System\SimplyRugby_System\Player.cs
+    startLine: 23
+  assemblies:
+  - SimplyRugby_System
+  namespace: SimplyRugby_System
+  summary: Gets or sets the player's date of birth.
+  example: []
+  syntax:
+    content: public DateTime DateOfBirth { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property DateOfBirth As Date
+  overload: SimplyRugby_System.Player.DateOfBirth*
+- uid: SimplyRugby_System.Player.Address
+  commentId: P:SimplyRugby_System.Player.Address
+  id: Address
+  parent: SimplyRugby_System.Player
+  langs:
+  - csharp
+  - vb
+  name: Address
+  nameWithType: Player.Address
+  fullName: SimplyRugby_System.Player.Address
+  type: Property
+  source:
+    id: Address
+    path: D:\SimplyRugby_System\SimplyRugby_System\Player.cs
+    startLine: 28
+  assemblies:
+  - SimplyRugby_System
+  namespace: SimplyRugby_System
+  summary: Gets or sets the player's residential address.
+  example: []
+  syntax:
+    content: public string Address { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Address As String
+  overload: SimplyRugby_System.Player.Address*
+- uid: SimplyRugby_System.Player.EmergencyContact
+  commentId: P:SimplyRugby_System.Player.EmergencyContact
+  id: EmergencyContact
+  parent: SimplyRugby_System.Player
+  langs:
+  - csharp
+  - vb
+  name: EmergencyContact
+  nameWithType: Player.EmergencyContact
+  fullName: SimplyRugby_System.Player.EmergencyContact
+  type: Property
+  source:
+    id: EmergencyContact
+    path: D:\SimplyRugby_System\SimplyRugby_System\Player.cs
+    startLine: 33
+  assemblies:
+  - SimplyRugby_System
+  namespace: SimplyRugby_System
+  summary: Gets or sets the emergency contact information for the player.
+  example: []
+  syntax:
+    content: public string EmergencyContact { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EmergencyContact As String
+  overload: SimplyRugby_System.Player.EmergencyContact*
+- uid: SimplyRugby_System.Player.MedicalInfo
+  commentId: P:SimplyRugby_System.Player.MedicalInfo
+  id: MedicalInfo
+  parent: SimplyRugby_System.Player
+  langs:
+  - csharp
+  - vb
+  name: MedicalInfo
+  nameWithType: Player.MedicalInfo
+  fullName: SimplyRugby_System.Player.MedicalInfo
+  type: Property
+  source:
+    id: MedicalInfo
+    path: D:\SimplyRugby_System\SimplyRugby_System\Player.cs
+    startLine: 38
+  assemblies:
+  - SimplyRugby_System
+  namespace: SimplyRugby_System
+  summary: Gets or sets the player's medical information and history.
+  example: []
+  syntax:
+    content: public string MedicalInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MedicalInfo As String
+  overload: SimplyRugby_System.Player.MedicalInfo*
+- uid: SimplyRugby_System.Player.CalculateAge
+  commentId: M:SimplyRugby_System.Player.CalculateAge
+  id: CalculateAge
+  parent: SimplyRugby_System.Player
+  langs:
+  - csharp
+  - vb
+  name: CalculateAge()
+  nameWithType: Player.CalculateAge()
+  fullName: SimplyRugby_System.Player.CalculateAge()
+  type: Method
+  source:
+    id: CalculateAge
+    path: D:\SimplyRugby_System\SimplyRugby_System\Player.cs
+    startLine: 45
+  assemblies:
+  - SimplyRugby_System
+  namespace: SimplyRugby_System
+  summary: Calculates the player's exact current age based on their Date of Birth.
+  example: []
+  syntax:
+    content: public int CalculateAge()
+    return:
+      type: System.Int32
+      description: The calculated integer age in years.
+    content.vb: Public Function CalculateAge() As Integer
+  overload: SimplyRugby_System.Player.CalculateAge*
+  exceptions:
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: Thrown if the Date of Birth is set in the future.
+- uid: SimplyRugby_System.Player.IsJunior
+  commentId: M:SimplyRugby_System.Player.IsJunior
+  id: IsJunior
+  parent: SimplyRugby_System.Player
+  langs:
+  - csharp
+  - vb
+  name: IsJunior()
+  nameWithType: Player.IsJunior()
+  fullName: SimplyRugby_System.Player.IsJunior()
+  type: Method
+  source:
+    id: IsJunior
+    path: D:\SimplyRugby_System\SimplyRugby_System\Player.cs
+    startLine: 66
+  assemblies:
+  - SimplyRugby_System
+  namespace: SimplyRugby_System
+  summary: Evaluates whether the player falls under the Junior category based on SRU age regulations.
+  example: []
+  syntax:
+    content: public bool IsJunior()
+    return:
+      type: System.Boolean
+      description: True if the calculated age is under 18; otherwise, false.
+    content.vb: Public Function IsJunior() As Boolean
+  overload: SimplyRugby_System.Player.IsJunior*
+references:
+- uid: SimplyRugby_System
+  commentId: N:SimplyRugby_System
+  href: SimplyRugby_System.html
+  name: SimplyRugby_System
+  nameWithType: SimplyRugby_System
+  fullName: SimplyRugby_System
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SimplyRugby_System.Player.PlayerID*
+  commentId: Overload:SimplyRugby_System.Player.PlayerID
+  href: SimplyRugby_System.Player.html#SimplyRugby_System_Player_PlayerID
+  name: PlayerID
+  nameWithType: Player.PlayerID
+  fullName: SimplyRugby_System.Player.PlayerID
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SimplyRugby_System.Player.FullName*
+  commentId: Overload:SimplyRugby_System.Player.FullName
+  href: SimplyRugby_System.Player.html#SimplyRugby_System_Player_FullName
+  name: FullName
+  nameWithType: Player.FullName
+  fullName: SimplyRugby_System.Player.FullName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SimplyRugby_System.Player.DateOfBirth*
+  commentId: Overload:SimplyRugby_System.Player.DateOfBirth
+  href: SimplyRugby_System.Player.html#SimplyRugby_System_Player_DateOfBirth
+  name: DateOfBirth
+  nameWithType: Player.DateOfBirth
+  fullName: SimplyRugby_System.Player.DateOfBirth
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: SimplyRugby_System.Player.Address*
+  commentId: Overload:SimplyRugby_System.Player.Address
+  href: SimplyRugby_System.Player.html#SimplyRugby_System_Player_Address
+  name: Address
+  nameWithType: Player.Address
+  fullName: SimplyRugby_System.Player.Address
+- uid: SimplyRugby_System.Player.EmergencyContact*
+  commentId: Overload:SimplyRugby_System.Player.EmergencyContact
+  href: SimplyRugby_System.Player.html#SimplyRugby_System_Player_EmergencyContact
+  name: EmergencyContact
+  nameWithType: Player.EmergencyContact
+  fullName: SimplyRugby_System.Player.EmergencyContact
+- uid: SimplyRugby_System.Player.MedicalInfo*
+  commentId: Overload:SimplyRugby_System.Player.MedicalInfo
+  href: SimplyRugby_System.Player.html#SimplyRugby_System_Player_MedicalInfo
+  name: MedicalInfo
+  nameWithType: Player.MedicalInfo
+  fullName: SimplyRugby_System.Player.MedicalInfo
+- uid: System.InvalidOperationException
+  commentId: T:System.InvalidOperationException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.invalidoperationexception
+  name: InvalidOperationException
+  nameWithType: InvalidOperationException
+  fullName: System.InvalidOperationException
+- uid: SimplyRugby_System.Player.CalculateAge*
+  commentId: Overload:SimplyRugby_System.Player.CalculateAge
+  href: SimplyRugby_System.Player.html#SimplyRugby_System_Player_CalculateAge
+  name: CalculateAge
+  nameWithType: Player.CalculateAge
+  fullName: SimplyRugby_System.Player.CalculateAge
+- uid: SimplyRugby_System.Player.IsJunior*
+  commentId: Overload:SimplyRugby_System.Player.IsJunior
+  href: SimplyRugby_System.Player.html#SimplyRugby_System_Player_IsJunior
+  name: IsJunior
+  nameWithType: Player.IsJunior
+  fullName: SimplyRugby_System.Player.IsJunior
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
