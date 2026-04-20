@@ -1,106 +1,111 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-      <title>This is the HOMEPAGE. | Simply Rugby System Documentation </title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="This is the HOMEPAGE. | Simply Rugby System Documentation ">
-      
-      
-      <link rel="icon" href="favicon.ico">
-      <link rel="stylesheet" href="public/docfx.min.css">
-      <link rel="stylesheet" href="public/main.css">
-      <meta name="docfx:navrel" content="toc.html">
-      <meta name="docfx:tocrel" content="toc.html">
-      
-      <meta name="docfx:rel" content="">
-      
-      
-      
-      <meta name="loc:inThisArticle" content="In this article">
-      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
-      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
-      <meta name="loc:tocFilter" content="Filter by title">
-      <meta name="loc:nextArticle" content="Next">
-      <meta name="loc:prevArticle" content="Previous">
-      <meta name="loc:themeLight" content="Light">
-      <meta name="loc:themeDark" content="Dark">
-      <meta name="loc:themeAuto" content="Auto">
-      <meta name="loc:changeTheme" content="Change theme">
-      <meta name="loc:copy" content="Copy">
-      <meta name="loc:downloadPdf" content="Download PDF">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simply Rugby - User Manual</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #F5F6FA;
+        }
+        header {
+            background-color: #2C3E50;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            border-radius: 8px 8px 0 0;
+        }
+        h1 { margin: 0; font-size: 28px; }
+        .container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 0 0 8px 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        h2 { color: #2980B9; border-bottom: 2px solid #ECF0F1; padding-bottom: 10px; margin-top: 40px; }
+        h3 { color: #2C3E50; margin-top: 25px; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 10px; }
+        .faq-question { font-weight: bold; color: #E74C3C; margin-top: 20px; }
+        .faq-answer { margin-bottom: 20px; color: #555; }
+        .note { background-color: #FFF3CD; padding: 15px; border-left: 4px solid #FFC107; margin: 20px 0; }
+    </style>
+</head>
+<body>
 
-      <script type="module" src="./public/docfx.min.js"></script>
-
-      <script>
-        const theme = localStorage.getItem('theme') || 'auto'
-        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-      </script>
-
-  </head>
-
-  <body class="tex2jax_ignore" data-layout="landing" data-yaml-mime="">
-    <header class="bg-body border-bottom">
-      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
-        <div class="container-xxl flex-nowrap">
-          <a class="navbar-brand" href="index.html">
-            <img id="logo" class="svg" src="logo.svg" alt="Simply Rugby System">
-            Simply Rugby System
-          </a>
-          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="bi bi-three-dots"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navpanel">
-            <div id="navbar">
-              <form class="search" role="search" id="search">
-                <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
-              </form>
-            </div>
-          </div>
-        </div>
-      </nav>
+    <header>
+        <h1>Simply Rugby Club</h1>
+        <p>Desktop Management System - User Manual</p>
     </header>
 
-    <main class="container-xxl">
+    <div class="container">
+        <p>Welcome to the new Simply Rugby Desktop Management System. This manual is designed to help club staff (Secretaries and Coaches) navigate the core features for efficient and compliant club operations.</p>
 
-      <div class="content">
-        <div class="actionbar">
-
-          <nav id="breadcrumb"></nav>
+        <h2>1. User Roles & Access Control</h2>
+        <p>This system strictly enforces <strong>Separation of Duty</strong>. Your login credentials determine which modules you can access on the sidebar:</p>
+        <ul>
+            <li><strong>Coach:</strong> Focuses on technical and on-pitch activities. Has access to Training Skills, Attendance, Match Records, and Medical Records.</li>
+            <li><strong>Secretary:</strong> Focuses on administration and compliance. Has access to Member Directory, Safeguarding, and Training Schedule.</li>
+        </ul>
+        <div class="note">
+            <strong>Note:</strong> If certain buttons are hidden from your sidebar, it is a deliberate security measure ensuring you only access modules relevant to your role.
         </div>
 
-        <article data-uid="">
-<h1 id="this-is-the-homepage">This is the <strong>HOMEPAGE</strong>.</h1>
+        <h2>2. Navigating the Interface</h2>
+        <ul>
+            <li><strong>Left Navigation Sidebar:</strong> Your main menu for accessing different business modules.</li>
+            <li><strong>Main Content Area:</strong> The central workspace where data grids and input forms are displayed.</li>
+            <li><strong>Bottom Status Bar:</strong> Displays your current login role and real-time system notifications.</li>
+        </ul>
 
-<p>Refer to <a href="http://daringfireball.net/projects/markdown/">Markdown</a> for how to write markdown files.</p>
-<h2 id="quick-start-notes">Quick Start Notes:</h2>
-<ol>
-<li>Add images to the <em>images</em> folder if the file is referencing an image.</li>
-</ol>
+        <h2>3. Core Modules Guide</h2>
 
-</article>
+        <h3>📊 System Dashboard</h3>
+        <p>The default landing page providing a real-time overview of club KPIs, including Total Registered Players, Currently Injured Players (synced with Medical Records), and Upcoming Training Sessions.</p>
 
-        <div class="contribution d-print-none">
-        </div>
+        <h3>👥 Members & Safeguarding</h3>
+        <ul>
+            <li><strong>Member Directory:</strong> Manage player profiles, SRU registration numbers, and contact details.</li>
+            <li><strong>Junior Safeguarding:</strong> <em>Legal Compliance Requirement.</em> Automatically filters players under 18 (U18). You must register their legal guardian details, emergency contacts, and pickup authorizations here.</li>
+        </ul>
 
-        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+        <h3>🏉 Training & Performance</h3>
+        <ul>
+            <li><strong>Training Skills:</strong> Standardized assessment module where coaches rate core skills (Passing, Tackling, Kicking) across different difficulty levels (Standard, Spin, Pop).</li>
+            <li><strong>Attendance Tracking:</strong> Log whether players were Present, Absent, or Excused to track commitment levels.</li>
+        </ul>
 
-      </div>
+        <h3>🏆 Match Records</h3>
+        <p>Record all fixture results. Includes symmetrical scoring inputs for both the 1st Half and Final Score (Us vs. Them), along with coach performance summaries.</p>
 
-      <div class="affix">
-        <nav id="affix"></nav>
-      </div>
-    </main>
+        <h3>🏥 Medical & Injury Records</h3>
+        <p>Log injury types, severity, and treatments. <br>
+        <strong>Clearance Protocol:</strong> A player's status will remain "Injured" on the Dashboard until the <em>"Cleared to Play"</em> checkbox is officially ticked by authorized staff.</p>
 
-    <div class="container-xxl search-results" id="search-results"></div>
+        <h3>📅 Training Schedule</h3>
+        <p>A resource planning tool for Secretaries to allocate pitches (e.g., Pitch 1, Indoor Gym), set times, and assign Lead Coaches for future sessions to prevent double-booking.</p>
 
-    <footer class="border-top text-secondary">
-      <div class="container-xxl">
-        <div class="flex-fill">
-          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
-        </div>
-      </div>
-    </footer>
-  </body>
+        <h3>📈 Reports & Analytics</h3>
+        <p>Generate visual trend reports for player progress and season win rates. Data can be exported to PDF or Excel for official club documentation.</p>
+
+        <h2>4. Frequently Asked Questions (FAQ)</h2>
+
+        <div class="faq-question">Q: Why didn't the injured player count increase on the Dashboard after I added a medical record?</div>
+        <div class="faq-answer">A: Please ensure you did NOT check the "Cleared to Play" box when saving the record. Only active, non-recovered injuries are counted.</div>
+
+        <div class="faq-question">Q: Why can't I find a newly added player in the Safeguarding dropdown?</div>
+        <div class="faq-answer">A: The Safeguarding module automatically calculates age based on the Date of Birth. Only players strictly under 18 years old will appear in this list.</div>
+
+        <div class="faq-question">Q: How do I reset my password?</div>
+        <div class="faq-answer">A: For security reasons in the current version, all password resets must be handled directly by the System Administrator.</div>
+
+    </div>
+
+</body>
 </html>
