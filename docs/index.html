@@ -3,109 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simply Rugby - User Manual</title>
+    <title>Simply Rugby - Documentation Center</title>
     <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #F5F6FA;
-        }
-        header {
-            background-color: #2C3E50;
-            color: white;
-            padding: 30px;
-            text-align: center;
-            border-radius: 8px 8px 0 0;
-        }
-        h1 { margin: 0; font-size: 28px; }
-        .container {
-            background-color: white;
-            padding: 40px;
-            border-radius: 0 0 8px 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-        }
-        h2 { color: #2980B9; border-bottom: 2px solid #ECF0F1; padding-bottom: 10px; margin-top: 40px; }
-        h3 { color: #2C3E50; margin-top: 25px; }
-        ul { padding-left: 20px; }
-        li { margin-bottom: 10px; }
-        .faq-question { font-weight: bold; color: #E74C3C; margin-top: 20px; }
-        .faq-answer { margin-bottom: 20px; color: #555; }
-        .note { background-color: #FFF3CD; padding: 15px; border-left: 4px solid #FFC107; margin: 20px 0; }
+        :root { --primary: #2C3E50; --secondary: #2980B9; --bg: #F5F6FA; }
+        body { font-family: 'Segoe UI', sans-serif; display: flex; margin: 0; background: var(--bg); }
+        
+        /* Sidebar Navigation */
+        nav { width: 250px; background: var(--primary); height: 100vh; position: fixed; color: white; padding: 20px; }
+        nav h1 { font-size: 20px; border-bottom: 1px solid #555; padding-bottom: 10px; }
+        nav ul { list-style: none; padding: 0; }
+        nav li { margin: 15px 0; }
+        nav a { color: #BDC3C7; text-decoration: none; font-size: 14px; transition: 0.3s; }
+        nav a:hover { color: white; padding-left: 5px; }
+        
+        /* Main Content Area */
+        main { margin-left: 290px; padding: 40px; max-width: 900px; background: white; min-height: 100vh; }
+        section { display: block; margin-bottom: 60px; scroll-margin-top: 40px; }
+        h2 { color: var(--secondary); border-bottom: 2px solid #EEE; padding-bottom: 10px; }
+        .card { background: #F9F9F9; border-left: 5px solid var(--secondary); padding: 15px; margin: 15px 0; }
+        code { background: #EEE; padding: 2px 5px; border-radius: 3px; font-family: monospace; }
     </style>
 </head>
 <body>
 
-    <header>
-        <h1>Simply Rugby Club</h1>
-        <p>Desktop Management System - User Manual</p>
-    </header>
-
-    <div class="container">
-        <p>Welcome to the new Simply Rugby Desktop Management System. This manual is designed to help club staff (Secretaries and Coaches) navigate the core features for efficient and compliant club operations.</p>
-
-        <h2>1. User Roles & Access Control</h2>
-        <p>This system strictly enforces <strong>Separation of Duty</strong>. Your login credentials determine which modules you can access on the sidebar:</p>
+    <nav>
+        <h1>Simply Rugby Docs</h1>
         <ul>
-            <li><strong>Coach:</strong> Focuses on technical and on-pitch activities. Has access to Training Skills, Attendance, Match Records, and Medical Records.</li>
-            <li><strong>Secretary:</strong> Focuses on administration and compliance. Has access to Member Directory, Safeguarding, and Training Schedule.</li>
+            <li><a href="#user-guide">📖 User Guide</a></li>
+            <li><a href="#roles">🔐 Role Permissions</a></li>
+            <li><a href="#technical">🛠️ Technical Reference</a></li>
+            <li><a href="#faq">❓ FAQ</a></li>
         </ul>
-        <div class="note">
-            <strong>Note:</strong> If certain buttons are hidden from your sidebar, it is a deliberate security measure ensuring you only access modules relevant to your role.
-        </div>
+        <p style="font-size: 10px; color: #7F8C8D; margin-top: 100px;">Version 2.0 (WPF Desktop)</p>
+    </nav>
 
-        <h2>2. Navigating the Interface</h2>
-        <ul>
-            <li><strong>Left Navigation Sidebar:</strong> Your main menu for accessing different business modules.</li>
-            <li><strong>Main Content Area:</strong> The central workspace where data grids and input forms are displayed.</li>
-            <li><strong>Bottom Status Bar:</strong> Displays your current login role and real-time system notifications.</li>
-        </ul>
+    <main>
+        <section id="user-guide">
+            <h2>📖 User Guide</h2>
+            <p>Welcome to the Simply Rugby Management System. This desktop application streamlines club operations.</p>
+            <div class="card">
+                <strong>Getting Started:</strong> Login using your assigned credentials. The Dashboard provides a live count of players and active injuries.
+            </div>
+            <ul>
+                <li><strong>Member Directory:</strong> Add, edit, or remove players from the database.</li>
+                <li><strong>Medical Records:</strong> Log injuries. Ensure you tick "Cleared to Play" once a player recovers.</li>
+                <li><strong>Training Skills:</strong> Rate player performance across Passing, Tackling, and Kicking.</li>
+            </ul>
+        </section>
 
-        <h2>3. Core Modules Guide</h2>
+        <section id="roles">
+            <h2>🔐 Role Permissions</h2>
+            <p>To ensure <strong>Separation of Duties</strong>, the interface adapts based on your role:</p>
+            <table border="1" cellpadding="10" style="width:100%; border-collapse: collapse; border-color: #EEE;">
+                <tr style="background: #F2F2F2;">
+                    <th>Feature</th><th>Secretary</th><th>Coach</th>
+                </tr>
+                <tr><td>Dashboard / Reports</td><td>✅ Yes</td><td>✅ Yes</td></tr>
+                <tr><td>Member Management</td><td>✅ Yes</td><td>❌ No</td></tr>
+                <tr><td>Safeguarding (U18)</td><td>✅ Yes</td><td>❌ No</td></tr>
+                <tr><td>Skills / Attendance</td><td>❌ No</td><td>✅ Yes</td></tr>
+                <tr><td>Medical Records</td><td>❌ No</td><td>✅ Yes</td></tr>
+            </table>
+        </section>
 
-        <h3>📊 System Dashboard</h3>
-        <p>The default landing page providing a real-time overview of club KPIs, including Total Registered Players, Currently Injured Players (synced with Medical Records), and Upcoming Training Sessions.</p>
+        <section id="technical">
+            <h2>🛠️ Technical Reference</h2>
+            <p>This section is for system administrators and academic examiners.</p>
+            <h3>Database Architecture</h3>
+            <p>The system utilizes <strong>Entity Framework Core</strong> with a local SQL database. Key models include:</p>
+            <ul>
+                <li><code>Member</code>: Primary entity for all club participants.</li>
+                <li><code>User</code>: Security entity for authentication with <code>BCrypt</code> hashed passwords.</li>
+                <li><code>TrainingSession</code>: Handles schedule logic and pitch allocation.</li>
+            </ul>
+            <h3>Security Implementation</h3>
+            <p>Passwords are never stored in plain text. We implement the <code>BCrypt.Net-Next</code> library for one-way cryptographic hashing.</p>
+        </section>
 
-        <h3>👥 Members & Safeguarding</h3>
-        <ul>
-            <li><strong>Member Directory:</strong> Manage player profiles, SRU registration numbers, and contact details.</li>
-            <li><strong>Junior Safeguarding:</strong> <em>Legal Compliance Requirement.</em> Automatically filters players under 18 (U18). You must register their legal guardian details, emergency contacts, and pickup authorizations here.</li>
-        </ul>
-
-        <h3>🏉 Training & Performance</h3>
-        <ul>
-            <li><strong>Training Skills:</strong> Standardized assessment module where coaches rate core skills (Passing, Tackling, Kicking) across different difficulty levels (Standard, Spin, Pop).</li>
-            <li><strong>Attendance Tracking:</strong> Log whether players were Present, Absent, or Excused to track commitment levels.</li>
-        </ul>
-
-        <h3>🏆 Match Records</h3>
-        <p>Record all fixture results. Includes symmetrical scoring inputs for both the 1st Half and Final Score (Us vs. Them), along with coach performance summaries.</p>
-
-        <h3>🏥 Medical & Injury Records</h3>
-        <p>Log injury types, severity, and treatments. <br>
-        <strong>Clearance Protocol:</strong> A player's status will remain "Injured" on the Dashboard until the <em>"Cleared to Play"</em> checkbox is officially ticked by authorized staff.</p>
-
-        <h3>📅 Training Schedule</h3>
-        <p>A resource planning tool for Secretaries to allocate pitches (e.g., Pitch 1, Indoor Gym), set times, and assign Lead Coaches for future sessions to prevent double-booking.</p>
-
-        <h3>📈 Reports & Analytics</h3>
-        <p>Generate visual trend reports for player progress and season win rates. Data can be exported to PDF or Excel for official club documentation.</p>
-
-        <h2>4. Frequently Asked Questions (FAQ)</h2>
-
-        <div class="faq-question">Q: Why didn't the injured player count increase on the Dashboard after I added a medical record?</div>
-        <div class="faq-answer">A: Please ensure you did NOT check the "Cleared to Play" box when saving the record. Only active, non-recovered injuries are counted.</div>
-
-        <div class="faq-question">Q: Why can't I find a newly added player in the Safeguarding dropdown?</div>
-        <div class="faq-answer">A: The Safeguarding module automatically calculates age based on the Date of Birth. Only players strictly under 18 years old will appear in this list.</div>
-
-        <div class="faq-question">Q: How do I reset my password?</div>
-        <div class="faq-answer">A: For security reasons in the current version, all password resets must be handled directly by the System Administrator.</div>
-
-    </div>
+        <section id="faq">
+            <h2>❓ FAQ</h2>
+            <p><strong>Q: Why is the Safeguarding list empty?</strong><br>
+            A: The system automatically filters players. Only those under 18 years of age based on their DOB will appear.</p>
+            <p><strong>Q: How is the 'Injured' count calculated?</strong><br>
+            A: It counts all medical records where the <code>IsRecovered</code> status is set to false.</p>
+        </section>
+    </main>
 
 </body>
 </html>
